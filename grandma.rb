@@ -7,9 +7,9 @@ def speak_to_grandma(phrase)
       return "I LOVE YOU TOO PUMPKIN!"
     # If you shout, she can hear you (or at least she thinks so)
     # and yells back
-    elsif phrase == phrase.downcase
+    elsif phrase.downcase
   		return "HUH?! SPEAK UP, SONNY!"
-    elsif phrase == phrase.downcase
+    elsif phrase.downcase
       return "HUH?! SPEAK UP, SONNY!"
     elsif phrase.upcase
       return "NO, NOT SINCE 1938!"
