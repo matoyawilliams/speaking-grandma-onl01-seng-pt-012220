@@ -9,6 +9,7 @@ def speak_to_grandma(phrase)
   		
   	elsif phase == phrase.upcase
       return "NO, NOT SINCE 1938!"
+      
     else
       phrase == phrase.downcase
   	  return "HUH?! SPEAK UP, SONNY!"
