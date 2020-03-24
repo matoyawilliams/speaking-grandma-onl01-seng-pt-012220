@@ -17,7 +17,8 @@ def speak_to_grandma(phrase)
 end
 end
 
-speak_to_grandma("hello there")
+speak_to_grandma(phrase.upcase)
+
 
 
 
